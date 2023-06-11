@@ -30,6 +30,9 @@ int main()
 	cout << "p= " << p << "(address: " << &p << ")" << endl;
 	cout << "x= (*p)= " << *p << endl;
 	cout << "pp=" << pp << "(address: " << &pp << ")" << endl;
+	cout << sizeof p;
+	cout << "x=(**pp)=" << **pp << endl;
+	cout << "p=(*p)=" << *pp << endl;
 
 	return 0;
 }
