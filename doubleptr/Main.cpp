@@ -1,6 +1,6 @@
 /******************************************************************************
 
-Dummy exercise for understanding better concept of double pointers
+ 
 Experiment with pointers 
 -Declare an int x
 -print its address and its value
@@ -25,6 +25,7 @@ int main()
 	p = &x;
 	
 	cout << "x= " << x << "(address: " << &x << ")" << endl;
-	cout << "p= " << p << "(address: " << &p << ")";
+	cout << "p= " << p << "(address: " << &p << ")" << endl;
+	cout << "x= (*p)= " << *p << endl;
 	return 0;
 }
